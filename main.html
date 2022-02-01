@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>landing page</title>
+</head>
+<body>
+    <header>
+        <section class="titre">
+        <h1 class="h1"> <p class="part1"> VOTRE </p><p> PROJET AUTOMOBILE</p></h1>
+
+        <h2 class="sous-titre">Besoin d'un nouveau véhicule ? Des questions sur une voiture ? Un 
+            devis gratuit et en ligne ? Vous etes au bon endroit : nos expert 
+            sont là pour vous accompagner
+        </h2>
+
+        <button class="devis">
+            Obtenir un devis gratuit et en ligne
+        </button>
+
+        </section>
+
+        <img class="img-header" src="./images/shutterstock_1725106216.png">
+    </header>
+    <section class="voiture">
+        <h2 class="voiture-titre">On vous aide à trouver votre voiture idéale !</h2>
+        <button class="voiture-button"> Ca m'intéresse !</button>
+        <section class="cards">
+            <div class="vitrine">
+                <img class="vitrine-img" src="./images/AUTO (3)/AUTO.png">
+            </div>
+            <div class="vitrine">
+                <img class="vitrine-img" src="./images/AUTO (4)/AUTO.png">
+            </div>
+            <div class="vitrine">
+                <img class="vitrine-img" src="./images/AUTO (1)/AUTO.png">
+            </div>
+            <div class="vitrine">
+                <img class="vitrine-img" src="./images/AUTO (2)/AUTO.png">
+            </div>
+
+            
+            
+        </section>
+    </section>
+
+
+    <section class="conseiller">
+        <img class="cons-img" src="./images/shutterstock_1607982631/shutterstock_1607982631.png">
+        <div class="cons-texte">
+            <h2 class="cons-titre"> Discutez avec un conseiller...</h2>
+            <p class="cons-soustitre">... de vos criteres, vos besoins, vos contraintes et vos attentes. Nous saurons vous guider.</p>
+        </div>
+    </section>
+
+
+    <section class="form">
+        <h2> Obtenez un devis en ligne facilement et gratuit. Trouvez LA voiture qu'il vous faut</h2>
+        <form class="formulaire" id="myForm">
+            <label> est ce un achat a titre professionnel ?</label>
+            <div class="achat">
+                <input type="radio" id="achat1" name="achat">
+                <label for="achat1">oui</label>
+            </div>
+            <div class="achat">
+                <input type="radio" id="achat2" name="achat">
+                <lavel for="achat2">non</lavel>
+            </div>
+
+            <label>si oui, quel est votre profession ?</label>
+            <input type="text" name="profession" class="textbox">
+
+            <label> par quel(s) modele(s) etes vous interessé ?</label>
+            <input type="text" name="modele" class="textbox">
+
+            <label>avez-vous une reprise ?</label>
+            <div class="reprise">
+                <input type="radio" id="reprise1" name="reprise">
+                <label for="reprise1">oui</label>
+            </div>
+            <div class="reprise">
+                <input type="radio" id="reprise2" name="reprise">
+                <lavel for="reprise2">non</lavel>
+            </div>
+
+            <label>si oui, laquelle ?</label>
+            <input type="text" name="reprises" class="textbox">
+
+            <h2>Vos coordonnées</h2>
+
+            <label>Nom</label>
+            <input type="text" name="nom" required class="textbox">
+
+            <label>Prénom</label>
+            <input type="text" name="prenom" required class="textbox">
+
+            <label>Numéro de téléphone</label>
+            <input type="number" name="telephone" class="textbox" >
+
+            <label>Email</label>
+            <input type="email" name="email" required class="textbox">
+
+            <label>Code postal</label>
+            <input type="number" name="postal" class="textbox">
+
+            <input type="checkbox" id="accept">
+            <label for="accept">Acceptation d’appel téléphonique et de transfert de données</label>
+
+            <input type="submit" value="Obtenez un devis." class="form-button">
+
+        </form>
+    </section>
+
+
+    <footer>
+        <p class="footer-txt">
+            Pour en savoir plus sur la gestion de vos données personnelles et pour connaître vos droits
+            et les exercer reportez-vous à la Charte des Données Personnelles ci-joint. J’accepte d’être
+            appelé avec les coordonnées que je viens de fournir. J’accepte que mes données personnelles
+            soient traitées par ….. pour les besoins du service, et transmises à un partenaire le cas
+            échéant. Je suis informé de l’existence de la Politique de Confidentialité de …., et je
+            l’accepte. Dans le cas contraire, je renonce à ce service.
+        </p>
+    </footer>
+    <script src="./script.js" ></script>
+</body>
+</html>
